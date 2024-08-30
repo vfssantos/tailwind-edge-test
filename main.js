@@ -8,7 +8,7 @@
 //   - Foreign Functions (ffi)
 
 const tailwindWorker = new Worker(
-    new URL("./workerTest.js", import.meta.url).href,
+    new URL("./tailwindcssWorker.js", import.meta.url).href,
     {
         type: "module",
         deno: {
