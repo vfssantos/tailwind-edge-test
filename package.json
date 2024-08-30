@@ -1,0 +1,6 @@
+{
+  "name":"tailwind-edge-demo",
+  "scripts":{
+    "start":"deno run -A --unstable-worker-options test.js"
+  }
+}
