@@ -6,6 +6,7 @@
 //   - Access to Environment Variables (env)
 //   - Dynamic Command execution (run)
 //   - Foreign Functions (ffi)
+//   - System Metrics / Information, except for CPU
 
 const tailwindWorker = new Worker(
     new URL("./tailwindcssWorker.js", import.meta.url).href,
@@ -18,6 +19,7 @@ const tailwindWorker = new Worker(
                 write: false,
                 ffi: false,
                 run: false,
+                sys:['cpu'] 
             }
         }
     }
