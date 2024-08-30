@@ -19,7 +19,7 @@ const tailwindWorker = new Worker(
                 write: false,
                 ffi: false,
                 run: false,
-                sys:['cpu'] 
+                sys:['cpus'] 
             }
         }
     }
