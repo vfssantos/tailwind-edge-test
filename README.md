@@ -1,4 +1,4 @@
-TailwindCSS Restricted Environment Reproduction
+## Running TailwindCSS in Restricted Environment Reproduction
 
 This repository demonstrates an issue with running TailwindCSS in restricted environments where file system read access is not available.
 
