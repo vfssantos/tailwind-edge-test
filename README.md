@@ -9,7 +9,7 @@ This reproduction uses Deno for simplicity.
 1. Clone the repository.
 2. Make sure you have Deno installed.
 3. Run `npm start` or `deno run -A --unstable-worker-options main.js`(to simulate a restricted environment).
-4. Deno is going to ask for permissions. You can dany all of them, and it still work, except for the CWD `--read` permission required for performing `process.cwd()`, which breaks the application .
+4. Deno is going to ask for permissions. You can deny all of them, and it still work, except for the CWD `--read` permission required for performing `process.cwd()`, which breaks the application .
 
 ## Expected Behavior
 
